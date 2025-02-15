@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romantic Valentine's Proposal</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+            color: #333;
+            text-align: center;
+        }
+
+        /* Mobile devices */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+            .rose-container {
+                width: 150px;
+                height: 250px;
+            }
+            button {
+                padding: 10px 20px;
+                font-size: 0.9em;
+            }
+            .message {
+                font-size: 1.2em;
+            }
+        }
+
+        /* Tablets */
+        @media (min-width: 601px) and (max-width: 1024px) {
+            h1 {
+                font-size: 2.5em;
+            }
+            .rose-container {
+                width: 180px;
+                height: 280px;
+            }
+        }
+
+        /* Laptops and larger screens */
+        @media (min-width: 1025px) {
+            h1 {
+                font-size: 3em;
+            }
+            .rose-container {
+                width: 200px;
+                height: 300px;
+            }
+        }
+
+        header {
+            padding: 50px;
+        }
+        h1 {
+            font-size: 3em;
+            color: #fff;
+            margin: 0;
+        }
+        .rose-container {
+            position: relative;
+            margin: 50px auto;
+            width: 200px;
+            height: 300px;
+        }
+        .rose {
+            width: 100%;
+            height: auto;
+            transition: transform 1s ease, opacity 1s ease;
+        }
+        .bloom {
+            transform: scale(1.2);
+            opacity: 1;
+        }
+        .message {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+        .cherry-blossoms {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            pointer-events: none;
+            z-index: 1;
+        }
+        .blossom {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: url('Cherry Blossom Flower.jpg') no-repeat center/cover;
+            border-radius: 50%;
+            animation: fall linear infinite;
+            will-change: transform, opacity;
+            filter: drop-shadow(1px 1px 2px rgba(255,182,193,0.5));
+        }
+
+        @keyframes fall {
+            0% {
+                transform: translate(-5%, -10%) rotate(0deg);
+                opacity: 0;
+            }
+            20% {
+                opacity: 0.8;
+                transform: translate(0%, 0%) rotate(45deg);
+            }
+            80% {
+                opacity: 0.8;
+                transform: translate(2%, 80vh) rotate(135deg);
+            }
+            100% {
+                transform: translate(5%, 100vh) rotate(180deg);
+                opacity: 0;
+            }
+        }
+
+        .bts-v {
+            margin-top: 30px;
+            display: none;
+        }
+        .bts-v img {
+            width: 200px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        button {
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #ff3b2f;
+        }
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background: #fff;
+            color: #333;
+            font-size: 0.9em;
+        }
+
+        .proposal-message {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 600px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            animation: fadeIn 2s ease-in-out;
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        @keyframes sparkle {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+
+        .heart-emoji {
+            animation: heartbeat 1s infinite;
+        }
+
+        .ring-emoji {
+            animation: sparkle 1s infinite;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Happy Valentine's Day, My Love ❤️</h1>
+    </header>
+    <div class="rose-container">
+        <img src="tae.jpg" alt="Rose" class="rose">
+    </div>
+    <div class="proposal-message">
+        <p>My Love <span class="heart-emoji">🌹</span>, My Moonlight,
+
+            They say distance makes the heart grow fonder, but my love for you has never been bound by space or time. It flows endlessly, like the rivers of Bengal, reaching for you with every heartbeat, longing to wrap you in the warmth of my soul.
+            
+            Every sunrise reminds me that somewhere, you are waking up with dreams in your eyes. Every raindrop that touches my skin makes me wonder if it's the same rain that kissed your hands. Every whispered "I miss you" across the screen carries a promise—a promise that no ocean, no border, no distance will ever keep me from you.
+            
+            Your love is my home, no matter how far I am. Your voice is my lullaby, your laughter—my sweetest melody. And though we are separated by miles, I have never felt closer to anyone than I do to you.
+            
+            So tonight, beneath the same moon that watches over us both, I ask you—
+            
+            Will you wait for me, as I am waiting for you?
+            Will you walk with me, heart to heart, until distance is nothing but a memory?
+            Will you be my forever, my home, my last and only love?
+            
+            (I take a deep breath, my hands trembling, knowing that no matter how far we are today, one day I will stand before you—not as a voice across the phone, not as a picture on a screen, but as the man who has waited a lifetime to call you mine.)
+            
+            <span class="ring-emoji">💍</span> "Will you marry me… across the distance, across the stars, across every lifetime?" <span class="ring-emoji">💍</span></p>
+    </div>
+    <button onclick="playAudioAndBloom()">Click for a surprise </button>
+
+    <div class="bts-v" id="btsVContainer">
+        <img src="https://i.imgur.com/6gX8v.jpg" alt="BTS V">
+        <p>"Still With You" - A song by V (Kim Taehyung) to make your day unforgettable! 💕</p>
+    </div>
+    <audio id="background-audio" loop volume="0.1">
+        <source src="new_320_05 - Duniyaa - PagalSongs.com (1).mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const audio = document.getElementById('background-audio');
+            function startAudio() {
+                audio.play();
+                document.removeEventListener('click', startAudio);
+                document.removeEventListener('touchstart', startAudio);
+            }
+            document.addEventListener('click', startAudio);
+            document.addEventListener('touchstart', startAudio);
+        });
+
+        let clickCount = 0;
+
+        function playAudioAndBloom() {
+            const backgroundAudio = document.getElementById('background-audio');
+            backgroundAudio.pause();
+            backgroundAudio.currentTime = 0;
+            
+            const container = document.getElementById('btsVContainer');
+            container.scrollIntoView({ behavior: 'smooth' });
+
+            clickCount++;
+
+            if (clickCount === 1) {
+                const audio = new Audio('tae voice.mp3');
+                audio.play();
+                const rose = document.querySelector('.rose');
+                rose.classList.add('bloom');
+            } else if (clickCount === 2) {
+                const songAudio = new Audio('Seven - 320Kbps-(Mr-Jat.in).mp3');
+                songAudio.play();
+                clickCount = 0;
+            }
+        }
+
+        // Cherry Blossoms Animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const blossomCount = 50;
+            const cherryBlossoms = document.getElementById('blossoms');
+            
+            if (cherryBlossoms) {
+                for (let i = 0; i < blossomCount; i++) {
+                    const blossom = document.createElement('div');
+                    blossom.classList.add('blossom');
+                    blossom.style.left = Math.random() * 100 + 'vw';
+                    blossom.style.animationDuration = Math.random() * 3 + 5 + 's'; // 5-8 seconds
+                    blossom.style.animationDelay = Math.random() * 2 + 's'; // 0-2 seconds delay
+                    blossom.style.animationTimingFunction = 'ease-in-out';
+                    blossom.style.opacity = Math.random() * 0.8 + 0.2;
+                    cherryBlossoms.appendChild(blossom);
+                }
+            }
+        });
+    </script>
+    <footer>
+        Made with ❤️ by Your Dear Hubby, Hope you like this!!
+    </footer>
+    <div class="cherry-blossoms" id="blossoms"></div>
+</body>
+        I Love You Sooooooooooooooooooooooooo Much Moreeeeeeeeeee wifeyyyyyyy ❤️
+    </footer>
+    <div class="cherry-blossoms" id="blossoms"></div>
+</body>
+</html>
