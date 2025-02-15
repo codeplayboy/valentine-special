@@ -139,7 +139,7 @@ yes_button.addEventListener('click', () => {
     
     // Add click handler for kiss button
     kissBtn.addEventListener('click', () => {
-        window.location.href = 'love/valentine_proposal.html';
+        window.location.href = 'valentine_proposal.html';
     });
 });
 
